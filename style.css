@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #fff8fb;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ffb6d9;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #d16ba5;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #b8588b;
+}
+
+footer {
+  background-color: #ffb6d9;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.nav-toggle-label{
+  display:none;
+  width:44px; height:44px; border-radius:10px; cursor:pointer;
+  align-items:center; justify-content:center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+  display:block; width:20px; height:2px; background:#333; border-radius:2px; position:relative;
+}
+.nav-toggle-label span::before{ content:""; position:absolute; top:-6px; left:0; }
+.nav-toggle-label span::after{ content:""; position:absolute; top:6px; left:0; }

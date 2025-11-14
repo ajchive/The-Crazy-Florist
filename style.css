@@ -1,9 +1,20 @@
 body {
   font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   background-color: #fff8fb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+    flex: 1; 
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  height: 100%;
 }
 
 header {
@@ -13,7 +24,7 @@ header {
 
 header h1 {
   margin: 0;
-  color: white;
+  color: #d16ba5;
 }
 
 nav a {
@@ -60,7 +71,9 @@ ul li {
 
 footer {
   background-color: #ffb6d9;
-  color: white;
-  padding: 10px;
+  color: #d16ba5;
+  padding: 15px 0;
   margin-top: 20px;
+  text-align: center;
+  margin-top: auto;
 }
